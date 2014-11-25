@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Internet Of Things - A presentation by Charlie Gerard</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>The Internet Of Things</h1>
+					<h3>And hardware stuff</h3>
+					<p>
+						<small>Created by <a href="http://charliegerard.github.io">Charlie Gerard</a> / <a href="http://twitter.com/charlie__gerard">@charlie__gerard</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>What is IoT?</h2>
+					<br>
+					<p>
+						The Internet of Things is a giant network of connected 'things'. It is physical objects that contain embedded technology to communicate and sense or interact with their external environment.
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Example of devices</h2>
+						<img src="http://static.businessinsider.com/image/525410b369bedd4c4022cfc1/image.jpg" style="width: 500px">
+						<p>
+							<a href="http://nest.com">Nest</a>
+						</p>
+					</section>
+					<section>
+						<img src="http://uncrate.com/p/2014/11/amazon-echo.jpg" style="width: 700px">
+						<p>
+							<a href="http://www.amazon.com/oc/echo/ref_=ods_dp_ae">New Amazon Echo</a>
+						</p>
+					</section>
+					<section>
+						<img src="http://www.qtooth.com/wp-content/uploads/2014/06/oort-universal-bluetooth-smart-wireless-hub-qtooth.png">
+						<p>
+							<a href="http://oort.in/">Oort</a>
+						</p>
+					</section>
+					<section>
+						<img src="http://iotlist-production.s3-us-west-2.amazonaws.com/uploads/production/post_attachment/699/file/tecnologia4.jpg">
+						<p>
+							<a href="https://ninjablocks.com/#home/">The Ninja Sphere</a>
+						</p>
+					</section>
+					<section>
+						<img src="http://iotlist-production.s3-us-west-2.amazonaws.com/uploads/production/post_attachment/586/file/homeautomate33.jpg">
+						<p><a href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home">Homey</a></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Newbies kits</h2>
+						<img src="https://dragon-innovation-production.s3.amazonaws.com/2014/01/16/18/00/07/404/85cc293b2694f2aeb47dd94d859798a3bead484e_1386941115.jpeg">
+						<p><a href="https://relayr.io/wunderbar">WunderBar</a></p>
+					</section>
+					<section>
+						<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/11/1117_littlebits-798x310.jpg">
+						<p><a href="http://littlebits.cc/cloud">LittleBits</a></p>
+					</section>
+					<section>
+						<img src="http://farm9.staticflickr.com/8050/8093226454_136f049919_z.jpg" style="width: 500px">
+						<p><a href="http://www.arduino.cc/">Arduino</a></p>
+					</section>
+					<section>
+						<img src="http://blog.alexwilde.net/wp-content/uploads/2014/02/RaspberryPi_Logo.png" style="width: 300px">
+						<p><a href="http://www.raspberrypi.org/">Raspberry Pi</a></p>
+					</section>
+				</section>
+
+
+					<section id="fragments">
+						<h3>What does it mean and why does it matter as devs.</h3>
+						<br>
+						<ul>
+							<li>
+								Skills.
+							</li>
+							<li class="fragment">
+								Customisation.
+							</li>
+							<li class="fragment">
+								Just the beginning. (26 billion connected devices by 2020 - <em>Analyst firm Gartner</em>)
+							</li>
+							<li class="fragment">
+								<img src="http://i.giphy.com/eEtxYul1kBS80.gif">
+							</li>
+						</ul>
+					</section>
+
+					<section>
+						<section>
+							<h1>Live demo!</h1>
+							<div style="display: inline-block">
+								<img src="http://www.gearthblog.com/wp-content/uploads/2013/08/LeapMotion-Packaging.jpg" style="width: 250px;">
+								<p><a href="https://www.leapmotion.com/">Leap Motion</a></p>
+							</div>
+							<div style="display: inline-block">
+								<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
+								<p><a href="http://www.gosphero.com/">Sphero</a></p>
+							</div>
+							<div style="display: inline-block">
+								<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
+								<p><a href="http://ardrone2.parrot.com/">Parrot AR Drone</a></p>
+							</div>
+						</section>
+						<section>
+							<h1>But Also...</h1>
+							<br>
+							<div style="display: inline-block">
+								<img src="http://blog.p1.com.my/wp-content/uploads/2014/10/MYO-armband.jpg" style="width: 250px;">
+								<p><a href="https://www.thalmic.com/en/myo/">Myo</a></p>
+							</div>
+							<div style="display: inline-block">
+								<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
+								<p><a href="http://www.gosphero.com/">Sphero</a></p>
+							</div>
+							<div style="display: inline-block">
+								<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
+								<p><a href="http://ardrone2.parrot.com/">Parrot AR Drone</a></p>
+							</div>
+						</section>
+						<section>
+							<img src="http://i.giphy.com/eEtxYul1kBS80.gif" style="width: 1000px">
+						</section>
+					</section>
+
+					<section>
+						<h2>How the fuck does this work?</h2>
+						<br>
+						<p><a href="http://nodejs.org/">Node.js</a></p>
+						<p><a href="http://expressjs.com/">Express.js</a></p>
+						<p><a href="https://developer.leapmotion.com/downloads/javascript">Leapjs</a></p>
+						<p><a href="https://github.com/alchemycs/spheron">Spheron</a></p>
+						<p><a href="https://github.com/stolksdorf/myo.js">Myo.js</a></p>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Code sample for Myo + Sphero.
+							#### Server
+
+							```
+							var express = require('express'),
+    							path = require('path');
+
+							//create web server
+							var app = express();
+
+							//require the custom module
+							var lab = require('./my_modules/myo_sphero');
+							lab();
+
+							app.listen(3001);
+							console.log("Server running on port 3001");
+							```
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### Code sample for Myo + Sphero.
+							#### Commands
+
+							```
+							module.exports = function() {
+
+							  var Leap = require('leapjs');
+							  var spheron = require('spheron');
+							  var myo = require('myo');
+
+							  myo = Myo.create(0);
+
+							  var device = '/dev/tty.Sphero-RBR-AMP-SPP';
+
+								var controlSphero = function(sphero) {
+								    myo.on('wave_out', function(){
+								      console.log('RIGHT');
+								      sphero.heading = 90;
+								      sphero.roll(70, 90, 1);
+								    })
+								}
+
+								var ball = spheron.sphero().resetTimeout(true);
+								    ball.open(device);
+
+								  ball.on('open', function() {
+								  	console.log('connected to Sphero');
+								      ball.setRGB(spheron.toolbelt.COLORS.PURPLE).setBackLED(255);
+								      controlSphero(ball);
+								  });
+							}
+							```
+						</script>
+					</section>
+
+
+					<section>
+						<h3>Resources and additional info</h3>
+						<p><strong>Meetups</strong></p>
+							<ul>
+								<li>
+									<a href="http://www.meetup.com/Internet-of-Things-Sydney/">Internet of Things Sydney</a>
+								</li>
+								<li>
+									<a href="http://www.meetup.com/OzBerryPi/">OzBerryPi</a>
+								</li>
+								<li>
+									<a href="http://solidifier.com.au/">Solidifier - Collaborative hardware makerspace</a>
+								</li>
+							</ul>
+
+						<p><strong>Websites</strong></p>
+						<ul>
+							<li>
+								<a href="http://iotlist.co/">IoTList</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/">Makezine</a>
+							</li>
+						</ul>
+						<p><strong>Repos</strong></p>
+						<ul>
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_sphero">Leap Motion + Sphero</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_drone">Leap Motion + Drone</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/myo_sphero">Myo + Sphero</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/myo_drone">Myo + Drone</a>
+							</li>
+						</ul>
+					</section>
+				<!-- </section> -->
+
+				<section>
+					<h2>Thank you!</h2>
+					<p>
+						Twitter: <a href="http://www.twitter.com/charlie__gerard">@charlie__gerard</a>
+					</p>
+					<p>
+						Github: <a href="http://www.github.com/charliegerard">charliegerard</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
