@@ -14,8 +14,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,261 +40,687 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>The Internet Of Things</h1>
-					<h3>And hardware stuff</h3>
+				<section class="title">
+					<h1>The Internet of Things</h1>
+					<h3>And all the cool shit</h3>
 					<p>
 						<small>Created by <a href="http://charliegerard.github.io" target="blank">Charlie Gerard</a> / <a href="http://twitter.com/charlie__gerard" target="blank">@charlie__gerard</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>What is IoT?</h2>
+					<h2>What is the Internet of Things?</h2>
 					<br>
 					<p>
-						The Internet of Things is a giant network of connected 'things'. It is physical objects that contain embedded technology to communicate and sense or interact with their external environment.
+						<strong>Giant network of connected 'things'.</strong>
 					</p>
 				</section>
 
-				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Example of devices</h2>
-						<img src="http://static.businessinsider.com/image/525410b369bedd4c4022cfc1/image.jpg" style="width: 500px">
-						<p>
-							<a href="http://nest.com" target="blank">Nest</a>
-						</p>
+						<h2>What does it even mean?</h2>
+
+						<p>Example of devices</p>
+						<img src="http://static6.businessinsider.com/image/5484aec66bb3f76676626cad-480/nest-smoke-detector.png" style="width: 500px">
+							<p>
+							  <a href="http://nest.com" target="blank">Nest</a>
+							</p>
+							<p class="example-description"><em>
+								Thermostat: Change temperature depending on the current temperature in your house.</em>
+							</p>
+							<p class="example-description"><em>
+								Smoke detector: Send text to your phone if fire in your house.</em>
+							</p>
 					</section>
+
 					<section>
-						<img src="http://uncrate.com/p/2014/11/amazon-echo.jpg" style="width: 700px">
+						<img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/amazon-echo/amazon_echo_main.png" style="width: 900px">
 						<p>
-							<a href="http://www.amazon.com/oc/echo/ref_=ods_dp_ae" target="blank">New Amazon Echo</a>
+							<a href="http://www.amazon.com/oc/echo/ref_=ods_dp_ae" target="blank">Amazon Echo</a>
+						</p>
+						<p class="example-description">
+							<em>Voice commands to control “smart” appliances in your house. Like “ok google” for your house.</em>
 						</p>
 					</section>
-					<section>
-						<img src="http://www.qtooth.com/wp-content/uploads/2014/06/oort-universal-bluetooth-smart-wireless-hub-qtooth.png">
-						<p>
-							<a href="http://oort.in/" target="blank">Oort</a>
-						</p>
-					</section>
+
 					<section>
 						<img src="http://iotlist-production.s3-us-west-2.amazonaws.com/uploads/production/post_attachment/699/file/tecnologia4.jpg">
 						<p>
 							<a href="https://ninjablocks.com/#home/" target="blank">The Ninja Sphere</a>
 						</p>
+						<p class="example-description">
+							<em>Device reacting to hand movement or touch to interact with your lights or music system.</em>
+						</p>
 					</section>
+
 					<section>
-						<img src="http://iotlist-production.s3-us-west-2.amazonaws.com/uploads/production/post_attachment/586/file/homeautomate33.jpg">
-						<p><a href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home" target="blank">Homey</a></p>
+						<img src="http://www.smartthings.com/images/know-control-kit.jpg" style="width: 600px">
+						<p><a href="http://www.smartthings.com/">SmartThings</a></p>
+
+						<p class="example-description">
+							<em>Home appliances such as motion detector that can send you notification if someone enters your house or turn on the lights when you’re home.</em>
+						</p>
 					</section>
+
 				</section>
+
+
 				<section>
 					<section>
-						<h2>Newbies kits</h2>
-						<img src="https://dragon-innovation-production.s3.amazonaws.com/2014/01/16/18/00/07/404/85cc293b2694f2aeb47dd94d859798a3bead484e_1386941115.jpeg">
-						<p><a href="https://relayr.io/wunderbar" target="blank">WunderBar</a></p>
+						<h2>What impact could it have?</h2>
+
+						<img src="img/iot-graph.png">
 					</section>
-					<section>
-						<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/11/1117_littlebits-798x310.jpg">
-						<p><a href="http://littlebits.cc/cloud" target="blank">LittleBits</a></p>
-					</section>
-					<section>
-						<img src="http://farm9.staticflickr.com/8050/8093226454_136f049919_z.jpg" style="width: 500px">
-						<p><a href="http://www.arduino.cc/" target="blank">Arduino</a></p>
-					</section>
-					<section>
-						<img src="http://blog.alexwilde.net/wp-content/uploads/2014/02/RaspberryPi_Logo.png" style="width: 300px">
-						<p><a href="http://www.raspberrypi.org/" target="blank">Raspberry Pi</a></p>
-					</section>
+
+				</section>
+
+				<section id="fragments">
+					<h3>Why should I care?</h3>
+					<br>
+					<ul>
+						<li>
+							THE FUTURE!!!
+						</li>
+						<li class="fragment">
+							Maker movement
+						</li>
+						<li class="fragment">
+							Growing demand in skills
+						</li>
+						<li class="fragment">
+							<img src="http://i.giphy.com/eEtxYul1kBS80.gif">
+						</li>
+					</ul>
 				</section>
 
 
-					<section id="fragments">
-						<h3>What does it mean and why does it matter as devs.</h3>
-						<br>
+				<section>
+					<section>
+						<h2>Ok but.... how do i even do that?</h2>
+					</section>
+					<section>
+						<img src="http://www.clipartbest.com/cliparts/aTq/oq9/aTqoq9gXc.png" style="width: 200px">
+						<p></p>
+						<h2>Hardware</h2>
+					</section>
+					<section id="fragments2">
+						<img src="https://dragon-innovation-production.s3.amazonaws.com/2014/01/16/18/00/07/404/85cc293b2694f2aeb47dd94d859798a3bead484e_1386941115.jpeg">
+						<p><a href="https://relayr.io/wunderbar" target="blank">WunderBar</a></p>
+						<p class="example-description">
+							<em>
+								Starter kit with wireless sensors such as light, color, proximity, accelerometer, humidity, etc...</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+					<section id="fragments3">
+						<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/11/1117_littlebits-798x310.jpg">
+						<p><a href="http://littlebits.cc/cloud" target="blank">LittleBits</a></p>
+						<p class="example-description">
+							<em>
+								Smart home kit with 14 wireless modules including, mp3 player, temperature sensor, servos, etc...</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+					<section id="fragments4">
+						<img src="http://farm9.staticflickr.com/8050/8093226454_136f049919_z.jpg" style="width: 500px">
+						<p><a href="http://www.arduino.cc/" target="blank">Arduino</a></p>
+						<p class="example-description">
+							<em>
+								Starter kit with Arduino UNO, breadboard, buttons, LEDs, jumper wires, capacitors, etc...
+							</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+					<section id="fragments5">
+						<img src="http://www4.pcmag.com/media/images/351321-raspberry-pi.jpg?thumb=y" style="width: 500px">
+						<p><a href="http://www.raspberrypi.org/" target="blank">Raspberry Pi</a></p>
+						<p class="example-description">
+							<em>
+								Credit-card sized computer that can browser the Interet, play games, make spreadsheets, etc...
+							</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+
+<!-- 					<section>
+						<img src="https://cdn.sparkfun.com//assets/parts/8/6/5/3/12060-01.jpg">
+						<p><a href="https://www.sparkfun.com/products/12060">Sparkfun's inventor kit</a></p>
+					</section> -->
+
+					<section id="fragments6">
+						<img src="http://www.seeedstudio.com/document/pics/Grove%20Starter%20Kit%20V3.jpg" style="width: 600px">
+						<p><a href="https://software.intel.com/en-us/iot/hardware/devkit">Grove starter Kit by Intel</a></p>
+						<p class="example-description">
+							<em>
+								IoT starter kit working with the Intet Galileo or Edison including buzzers, buttons, LED, touch sensor, smart relay, sound sensor, etc...
+							</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+
+					<section id="fragments7">
+						<img src="http://assets.sbnation.com/assets/3201587/beacon.png" style="width: 600px">
+						<p><a href="http://estimote.com/">Estimote iBeacons</a></p>
+						<p class="example-description">
+							<em>
+								Small wireless sensors broadcasting tiny radio signals interpretable by your mobile phone, unlocking micro-location and contextual awareness.
+							</em>
+						</p>
+						<p class="fragment">
+							Stuff you could do?</br>
+							Connect the light sensor to your smart lights so it wakes you up little by little
+						</p>
+					</section>
+
+					<section>
+						<img src="https://www.bento.io/static/img/icons/icon_18033.png" style="width: 200px">
+						<p></p>
+						<h2>Software</h2>
+					</section>
+
+					<section>
+						<div id="examples-bloc">
 						<ul>
 							<li>
-								Skills.
+								<span><strong>Javascript</strong></span></br>
+								<li><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2000px-Node.js_logo.svg.png"></li>
+								<li><img src="https://camo.githubusercontent.com/3420092e29cad2a25520a3efd3c995a3ad22996f/687474703a2f2f692e696d6775722e636f6d2f553370614e68522e706e67"></li>
 							</li>
-							<li class="fragment">
-								Customisation.
+						</ul>
+
+						<ul>
+							<li>
+								<span><strong>Ruby</strong></span></br>
+								<li><img src="http://artoo.io/images/elements/artoo.png">Artoo</li>
 							</li>
-							<li class="fragment">
-								Just the beginning. (26 billion connected devices by 2020 - <em>Analyst firm Gartner</em>)
+						</ul>
+
+						<ul>
+
+							<li>
+								<span><strong>Go</strong></span></br>
+								<li><img src="https://camo.githubusercontent.com/386207bf974d55af9c1bc0d552dc09ead604b89f/68747470733a2f2f63646e2e7261776769742e636f6d2f68796272696467726f75702f676f626f742d736974652f6d61737465722f736f757263652f696d616765732f656c656d656e74732f676f7068792e706e67">Gobot</li>
 							</li>
-							<li class="fragment">
-								<img src="http://i.giphy.com/eEtxYul1kBS80.gif">
+
+						</ul>
+
+	<!-- 						<li><span><strong>Tools</strong></span></br>
+								<li><a href="http://thethingbox.io/">The Thing Box</a></li>
+								<li><a href="http://www.makerswarm.com/">Maker swarm</a></li>
+							</li> -->
+						</ul>
+					</div>
+					</section>
+				</section>
+
+				<section>
+					<h1>YES YOU CAN!</h1>
+				</section>
+
+				<section>
+					<section>
+						<h1>Live demo!</h1>
+						<div style="display: inline-block">
+							<img src="http://www.gearthblog.com/wp-content/uploads/2013/08/LeapMotion-Packaging.jpg" style="width: 250px;">
+							<p><a href="https://www.leapmotion.com/" target="blank">Leap Motion</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
+							<p><a href="http://www.gosphero.com/" target="blank">Sphero</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
+							<p><a href="http://ardrone2.parrot.com/" target="blank">Parrot AR Drone</a></p>
+						</div>
+					</section>
+
+					<section>
+						<h1>But Also...</h1>
+						<br>
+						<div style="display: inline-block">
+							<img src="http://blog.p1.com.my/wp-content/uploads/2014/10/MYO-armband.jpg" style="width: 250px;">
+							<p><a href="https://www.thalmic.com/en/myo/" target="blank">Myo</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
+							<p><a href="http://www.gosphero.com/" target="blank">Sphero</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
+							<p><a href="http://ardrone2.parrot.com/" target="blank">Parrot AR Drone</a></p>
+						</div>
+					</section>
+
+
+					<section>
+						<h1>And Also...!</h1>
+						<br>
+						<div style="display: inline-block">
+							<img src="http://a.tgcdn.net/images/products/zoom/e9e5_neurosky_mindwave.jpg" style="width: 250px;">
+							<p><a href="http://neurosky.com/" target="blank">Neurosky</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
+							<p><a href="http://www.gosphero.com/" target="blank">Sphero</a></p>
+						</div>
+						<div style="display: inline-block">
+							<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
+							<p><a href="http://ardrone2.parrot.com/" target="blank">Parrot AR Drone</a></p>
+						</div>
+					</section>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						### Code sample for Myo + Sphero.
+						#### Server
+
+						```
+						var express = require('express'),
+							path = require('path');
+
+						//create web server
+						var app = express();
+
+						//require the custom module
+						var lab = require('./my_modules/myo_sphero');
+						lab();
+
+						app.listen(3001);
+						console.log("Server running on port 3001");
+						```
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						### Code sample for Myo + Sphero.
+						#### Commands
+
+						```
+						module.exports = function() {
+
+						  var spheron = require('spheron');
+						  var myo = require('myo');
+
+						  myo = Myo.create(0);
+
+						  var device = '/dev/tty.Sphero-RBR-AMP-SPP';
+
+							var controlSphero = function(sphero) {
+							    myo.on('wave_out', function(){
+							      console.log('RIGHT');
+							      sphero.heading = 90;
+							      sphero.roll(70, 90, 1);
+							    })
+							}
+
+							var ball = spheron.sphero().resetTimeout(true);
+							    ball.open(device);
+
+							  ball.on('open', function() {
+							  	console.log('connected to Sphero');
+							      ball.setRGB(spheron.toolbelt.COLORS.PURPLE).setBackLED(255);
+							      controlSphero(ball);
+							  });
+						}
+						```
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						### Code sample for Myo + Drone.
+						#### Server
+
+						```
+						  var express, path, drone, server, app, faye, client, morgan, methodOverride, myo;
+
+						  express = require("express");
+						  morgan = require("morgan");
+						  bodyParser = require("body-parser");
+						  methodOverride = require('method-override');
+						  path = require("path");
+						  http = require('http');
+						  faye = require('faye');
+						  myo = require ('myo');
+						  drone = require("ar-drone").createClient(); // enables communication with drone in javascript
+						  require("dronestream").listen(3001); // for video rendering
+						  app = express();
+
+						var env = process.env.NODE_ENV || 'development';
+						if('development' == env){
+						  app.set('port', process.env.PORT || 3000);
+						  app.use(express.static(__dirname + '/public'));
+						  app.use("/node_modules", express.static(path.join(__dirname, 'node_modules')))
+						}
+
+						  server = require('http').createServer(app);
+
+						  var bayeux = new faye.NodeAdapter({
+						    mount: '/faye',
+						    timeout: 50
+						  });
+
+						  bayeux.attach(server);
+
+						  client = new faye.Client("http://localhost:" + (app.get("port")) + "/faye", {});
+
+						  client.subscribe("/drone/move", function (d) { // move includes any directional actions
+						    return drone[d.action](d.speed);
+						  });
+
+						  client.subscribe("/drone/drone", function (d) { // drone commands include takeoff and landing
+						      return drone[d.action]();
+						  });
+
+						  server.listen(app.get('port'), function () {
+						    console.log("Express server listening on port " + app.get("port"));
+						  })
+						```
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						### Code sample for Myo + Drone.
+						#### Commands
+
+						```
+							var controller, flying, speed, faye, timeout, speedAdjuster, stopped, myo;
+
+							var droneCommandsHandler = function () {
+							  myo = Myo.create(0);
+
+							  myo.on('fingers_spread', function(){
+							    myo.setLockingPolicy();
+							    takeoff();
+							    console.log('takeoff');
+							  });
+
+							  myo.on('wave_in', function(){
+							    myo.setLockingPolicy();
+							    goLeft();
+							  })
+
+							  myo.on('wave_out', function(){
+							    myo.setLockingPolicy();
+							    goRight();
+							  })
+
+							  myo.on('fist', function(){
+							    myo.setLockingPolicy();
+							    console.log('land');
+							    land();
+							  })
+
+							  faye = new Faye.Client("/faye", {
+							    timeout: 60
+							  });
+
+							  flying = false; // used to prevent action while drone is dormant
+							  timeout = 400;  // used for each server publish
+							  speedAdjuster = 2.5; // higher number decreases action speed.  DO NOT set to less than 1
+
+							  var takeoff = function () {
+							  	flying = true;
+							  	return faye.publish("/drone/drone", {
+							      action: 'takeoff'
+							    });
+							  };
+
+							  var land = function () {
+							  	flying = false;	// prevents faye from publishing actions when drone has landed
+							  	return faye.publish("/drone/drone", {
+							      action: 'land'
+							    });
+							  };
+
+							  var goLeft = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'left'
+							        // speed: adjustXspeed
+							      })
+							    }, timeout);
+							  };
+
+							  var goRight = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'right'
+							            // speed: adjustXspeed
+							      })
+							    }, timeout);
+							  };
+
+							  var goUp = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'up'
+							        // speed: adjustYspeed
+							      })
+							    }, timeout/2);
+							  };
+
+							  var goDown = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'down'
+							        // speed: adjustYspeed
+							      })
+							    }, timeout/2);
+							  };
+
+							  var goForward = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'front'
+							        // speed: adjustZspeed
+							      })
+							    }, timeout/3);
+							  };
+
+							  var goBackwards = function(){
+							    stopped = false;
+							    setTimeout(function (){
+							      return faye.publish("/drone/move", {
+							        action: 'back'
+							        // speed: adjustZspeed
+							      })
+							    }, timeout/3);
+							  };
+
+							  var stopDrone = function(){
+							    stopped = true;
+							    setTimeout(function (){
+							      return faye.publish("/drone/drone", {
+							        action: 'stop'
+							      })
+							    }, timeout);
+							  };
+
+
+							  speed = 0.5; // used for rotation speed
+							  var counterClockwise = function () {
+							    faye.publish("/drone/move", {
+							      action: 'counterClockwise',
+							      speed: speed
+							    })
+							    setTimeout(function (){
+							      return faye.publish("/drone/drone", {
+							        action: 'stop'
+							      })
+							    }, timeout);
+							  };
+
+							  var clockwise = function () {
+							    faye.publish("/drone/move", {
+							      action: 'clockwise',
+							      speed: speed
+							    })
+							    setTimeout(function (){
+							      return faye.publish("/drone/drone", {
+							        action: 'stop'
+							      })
+							    }, timeout);
+							  };
+
+							};
+
+							droneCommandsHandler();
+						```
+					</script>
+				</section>
+
+				<section>
+					<section>
+						<h2>Resources and additional info</h2>
+					</section>
+					<section>
+						<h3>Events</h3>
+						<p><strong>Meetups</strong></p>
+							<ul style="text-align: left; width: 100%">
+								<li>
+									<a href="http://www.meetup.com/Internet-of-Things-Sydney/" target="blank">Internet of Things Sydney</a>
+								</li>
+								<li>
+									<a href="http://www.meetup.com/OzBerryPi/" target="blank">OzBerryPi</a>
+								</li>
+								<li>
+									<a href="http://solidifier.com.au/" target="blank">Solidifier - Collaborative hardware makerspace</a>
+								</li>
+							</ul>
+
+						<p><strong>Conferences</strong></p>
+							<ul style="text-align: left; width: 100%">
+								<li>
+									<a href="http://www.meetup.com/Internet-of-Things-Sydney/" target="blank">CeBIT - Sydney</a>
+								</li>
+								<li>
+									<a href="http://www.meetup.com/OzBerryPi/" target="blank">NodeBots - Sydney</a>
+								</li>
+								<li>
+									<a href="http://solidifier.com.au/" target="blank">IoT connect - Sydney</a>
+								</li>
+							</ul>
+					</section>
+
+					<section>
+						<h3>Websites</h3>
+						<ul style="text-align: left; width: 100%">
+							<li>
+								<a href="http://iotlist.co/" target="blank">IoTList</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/" target="blank">Makezine</a>
+							</li>
+
+							<li>
+								<a href="http://makerthemovie.com/" target="blank">Maker movie</a>
+							</li>
+						</ul>
+
+						<h3>Where to buy</h3>
+						<ul style="text-align: left; width: 100%">
+							<li>
+								<a href="http://iotlist.co/" target="blank">Arduino website</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/" target="blank">Raspberry Pi website</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/" target="blank">Adafruit</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/" target="blank">Sparkfun</a>
+							</li>
+							<li>
+								<a href="http://makezine.com/" target="blank">LittleBirdsElectronics</a>
 							</li>
 						</ul>
 					</section>
 
+					<!-- <section>
+						<h3>How can I find a related job?</h3>
+						<ul>
+							<li>Smart Cities => Arup</li>
+							<li>Connected Home => Ninja Blocks</li>
+							<li>Wearables => Wearable Experiments</li>
+							<li>Various => Sneepo</li>
+						</ul>
+						<p>But most of all, look out for startups!</p>
+					</section> -->
+				</section>
+
+				<section>
 					<section>
-						<section>
-							<h1>Live demo!</h1>
-							<div style="display: inline-block">
-								<img src="http://www.gearthblog.com/wp-content/uploads/2013/08/LeapMotion-Packaging.jpg" style="width: 250px;">
-								<p><a href="https://www.leapmotion.com/" target="blank">Leap Motion</a></p>
-							</div>
-							<div style="display: inline-block">
-								<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
-								<p><a href="http://www.gosphero.com/" target="blank">Sphero</a></p>
-							</div>
-							<div style="display: inline-block">
-								<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
-								<p><a href="http://ardrone2.parrot.com/" target="blank">Parrot AR Drone</a></p>
-							</div>
-						</section>
-						<section>
-							<h1>But Also...</h1>
-							<br>
-							<div style="display: inline-block">
-								<img src="http://blog.p1.com.my/wp-content/uploads/2014/10/MYO-armband.jpg" style="width: 250px;">
-								<p><a href="https://www.thalmic.com/en/myo/" target="blank">Myo</a></p>
-							</div>
-							<div style="display: inline-block">
-								<img src="http://augmentedworldexpo.com/wp-content/uploads/2013/05/SpheroApple-Box+Sphero1.jpg" style="width: 250px;">
-								<p><a href="http://www.gosphero.com/" target="blank">Sphero</a></p>
-							</div>
-							<div style="display: inline-block">
-								<img src="http://insiderous.com/wp-content/uploads/2014/05/Parrots-A.R-Drone-3.0.jpg" style="width: 250px;">
-								<p><a href="http://ardrone2.parrot.com/" target="blank">Parrot AR Drone</a></p>
-							</div>
-						</section>
+						<p><strong>Repos</strong></p>
+						<ul style="text-align: left; width: 100%">
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_sphero" target="blank">Leap Motion + Sphero</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_drone" target="blank">Leap Motion + Drone</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/myo_sphero" target="blank">Myo + Sphero</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/myo_drone" target="blank">Myo + Drone</a>
+							</li>
+							<li>
+								<a href="https://github.com/charliegerard/neurosky-drone">Neurosky + Drone</a>
+							</li>
+							<li>
+								<a href="https://github.com/charliegerard/arduino-projects">Voice-controlled LED</a>
+							</li>
+						</ul>
+
+						<p><strong>Tutorials</strong></p>
+						<ul style="text-align: left; width: 100%">
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_sphero" target="blank">Control the Sphero using the Leap Motion in Nodejs</a>
+							</li>
+							<li>
+								<a href="http://www.github.com/charliegerard/leap_drone" target="blank">Control the Parrot AR Drone with the Leap Motion</a>
+							</li>
+						</ul>
 					</section>
-
-					<section>
-						<h2>How the fuck does this work?</h2>
-						<br>
-						<p><a href="http://nodejs.org/" target="blank">Node.js</a></p>
-						<p><a href="http://expressjs.com/" target="blank">Express.js</a></p>
-						<p><a href="https://developer.leapmotion.com/downloads/javascript" target="blank">Leapjs</a></p>
-						<p><a href="https://github.com/alchemycs/spheron" target="blank">Spheron</a></p>
-						<p><a href="https://github.com/stolksdorf/myo.js" target="blank">Myo.js</a></p>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							### Code sample for Myo + Sphero.
-							#### Server
-
-							```
-							var express = require('express'),
-    							path = require('path');
-
-							//create web server
-							var app = express();
-
-							//require the custom module
-							var lab = require('./my_modules/myo_sphero');
-							lab();
-
-							app.listen(3001);
-							console.log("Server running on port 3001");
-							```
-						</script>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							### Code sample for Myo + Sphero.
-							#### Commands
-
-							```
-							module.exports = function() {
-
-							  var spheron = require('spheron');
-							  var myo = require('myo');
-
-							  myo = Myo.create(0);
-
-							  var device = '/dev/tty.Sphero-RBR-AMP-SPP';
-
-								var controlSphero = function(sphero) {
-								    myo.on('wave_out', function(){
-								      console.log('RIGHT');
-								      sphero.heading = 90;
-								      sphero.roll(70, 90, 1);
-								    })
-								}
-
-								var ball = spheron.sphero().resetTimeout(true);
-								    ball.open(device);
-
-								  ball.on('open', function() {
-								  	console.log('connected to Sphero');
-								      ball.setRGB(spheron.toolbelt.COLORS.PURPLE).setBackLED(255);
-								      controlSphero(ball);
-								  });
-							}
-							```
-						</script>
-					</section>
+				</section>
 
 
-					<section>
-						<section>
-							<h3>Resources and additional info</h3>
-							<p><strong>Meetups</strong></p>
-								<ul style="text-align: left; width: 100%">
-									<li>
-										<a href="http://www.meetup.com/Internet-of-Things-Sydney/" target="blank">Internet of Things Sydney</a>
-									</li>
-									<li>
-										<a href="http://www.meetup.com/OzBerryPi/" target="blank">OzBerryPi</a>
-									</li>
-									<li>
-										<a href="http://solidifier.com.au/" target="blank">Solidifier - Collaborative hardware makerspace</a>
-									</li>
-								</ul>
 
-							<p><strong>Websites</strong></p>
-							<ul style="text-align: left; width: 100%">
-								<li>
-									<a href="http://iotlist.co/" target="blank">IoTList</a>
-								</li>
-								<li>
-									<a href="http://makezine.com/" target="blank">Makezine</a>
-								</li>
-							</ul>
-							<p><strong>Repos</strong></p>
-							<ul style="text-align: left; width: 100%">
-								<li>
-									<a href="http://www.github.com/charliegerard/leap_sphero" target="blank">Leap Motion + Sphero</a>
-								</li>
-								<li>
-									<a href="http://www.github.com/charliegerard/leap_drone" target="blank">Leap Motion + Drone</a>
-								</li>
-								<li>
-									<a href="http://www.github.com/charliegerard/myo_sphero" target="blank">Myo + Sphero</a>
-								</li>
-								<li>
-									<a href="http://www.github.com/charliegerard/myo_drone" target="blank">Myo + Drone</a>
-								</li>
-							</ul>
-						</section>
-						<section>
-							<h3>Articles</h3>
-							<ul style="text-align: left; width: 100%">
-								<li>
-									<a href="http://www.wired.com/2014/11/believe-the-iot-hype-or-perish/" target="blank">Believe the IoT Hype or Perish</a>
-								</li>
-								<li>
-									<a href="http://www.wired.com/2014/11/iot-wont-work-without-artificial-intelligence/" target="blank">IoT Won’t Work Without Artificial Intelligence</a>
-								</li>
-								<li>
-									<a href="http://www.creativebloq.com/web-design/physical-web-arrives-heres-why-it-will-change-your-life-111413518" target="blank">The physical web arrives – here's why it will change your life</a>
-								</li>
-								<li>
-									<a href="http://www.wired.com/2014/11/the-internet-of-things-bigger/" target="blank">The Internet of Things Is Far Bigger Than Anyone Realizes</a>
-								</li>
-								<li>
-									And way more...
-								</li>
-							</ul>
-						</section>
-					</section>
+<!-- 				<section>
+					<h2>How the fuck does this work?</h2>
+					<br>
+					<p><a href="http://nodejs.org/" target="blank">Node.js</a></p>
+					<p><a href="http://expressjs.com/" target="blank">Express.js</a></p>
+					<p><a href="https://developer.leapmotion.com/downloads/javascript" target="blank">Leapjs</a></p>
+					<p><a href="https://github.com/alchemycs/spheron" target="blank">Spheron</a></p>
+					<p><a href="https://github.com/stolksdorf/myo.js" target="blank">Myo.js</a></p>
+				</section> -->
 
 				<section>
 					<h2>Thank you!</h2>
@@ -311,7 +737,7 @@
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+		<script src="js/reveal.js"></script>
 
 		<script>
 
