@@ -47,6 +47,11 @@ body {
   background-color: rgb(34, 34, 50);
 }
 
+.reveal{
+  border: 10px solid rgb(34, 34, 50);
+  box-sizing: border-box;
+}
+
 .reveal .title h1{
   font-size: 75px;
   color: white;
@@ -73,11 +78,25 @@ body {
   color: rgb(161, 197, 114);
 }
 
-.reveal h1 {
-  font-size: 2.5em; }
+.reveal .slides a{
+  color: rgb(161, 197, 114);
+}
 
-.reveal h2 {
-  font-size: 1.6em; }
+.reveal .slides .special-h2{
+  border-bottom: none;
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  color: rgb(34, 34, 50);
+}
+
+.reveal .slides h2 {
+  font-size: 1.6em;
+  color: rgb(34, 34, 50);
+  border-bottom: 5px solid rgb(161, 197, 114);
+  padding-bottom: 0.2em;
+}
 
 .reveal h3 {
   font-size: 1.3em; }
