@@ -15,10 +15,13 @@ body {
   background-color: #fff; }
 
 .reveal {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: 'Source Code Pro', Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #222; }
+  color: #222;
+  border: 10px solid rgb(26, 25, 169);
+  box-sizing: border-box;
+}
 
 ::selection {
   color: #fff;
@@ -45,11 +48,6 @@ body {
 
 .reveal .title{
   background-color: rgb(34, 34, 50);
-}
-
-.reveal{
-  border: 10px solid rgb(34, 34, 50);
-  box-sizing: border-box;
 }
 
 .reveal .title h1{

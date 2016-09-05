@@ -37,52 +37,51 @@
 	</head>
 
 	<body>
-
-		<div class="reveal">
-
+		<div class="reveal ga-talk">
 			<div class="slides">
-				<section class="title">
-					<h1>The Internet of Things</h1>
-					<h3>And programming for hardware</h3>
+				<section class="intro-title">
+					<h1 class="small-title">The Internet of Things</h1>
+					<h3 class="big-subtitle">And programming for hardware</h3>
 					<p>
 						<small>Created by <a href="http://charliegerard.github.io" target="blank">Charlie Gerard</a> / <a href="http://twitter.com/charlie__gerard" target="blank">@charlie__gerard</a></small>
 					</p>
 				</section>
 
-				<section>
-					<h2>About Me</h2>
-					<p>Charlie Gerard</p>
-					<p>Software Developer @ThoughtWorks</p>
+				<section id="about-me">
 					<img src="http://33.media.tumblr.com/a36d3f481f29ecdd7843ce4ae5c838d8/tumblr_ns4grthKDf1uc9sefo1_500.gif">
+					<div class="content">
+						<h3>About Me</h3>
+						<p>Charlie Gerard</p>
+						<p>Software Developer @ThoughtWorks</p>
+						<p>Passionate about hardware, Internet of Things and creative coding</p>
+					</div>
 				</section>
 
-				<section>
-					<h2>What is the Internet of Things?</h2>
+				<section class="topic">
+					<h3>What is the Internet of Things?</h3>
 					<br>
-					<p>
-						<strong>Giant network of connected 'things'.</strong>
-					</p>
+					<p>Giant network of connected 'things'.</p>
 				</section>
 
 				<section>
-					<section>
-						<h2>What does it even mean?</h2>
+					<section class="product-examples">
+						<h3>What does it even mean?</h3>
 
 						<img src="http://static6.businessinsider.com/image/5484aec66bb3f76676626cad-480/nest-smoke-detector.png" style="width: 500px">
-							<p>
-							  <a href="http://nest.com" target="blank">Nest</a>
-							</p>
-							<p class="example-description"><em>
-								Thermostat: Change temperature depending on the current temperature in your house.</em>
-							</p>
-							<p class="example-description"><em>
-								Smoke detector: Send text to your phone if fire in your house.</em>
-							</p>
+						<p class="product-name">
+						  <a href="http://nest.com" target="blank">Nest</a>
+						</p>
+						<p class="example-description"><em>
+							Thermostat: Change temperature depending on the current temperature in your house.</em>
+						</p>
+						<p class="example-description"><em>
+							Smoke detector: Send text to your phone if fire in your house.</em>
+						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/amazon-echo/amazon_echo_main.png" style="width: 900px">
-						<p>
+						<p class="product-name">
 							<a href="http://www.amazon.com/oc/echo/ref_=ods_dp_ae" target="blank">Amazon Echo</a>
 						</p>
 						<p class="example-description">
@@ -90,9 +89,9 @@
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="http://iotlist-production.s3-us-west-2.amazonaws.com/uploads/production/post_attachment/985/file/61up4U2txRL._SL1000_.jpg" style="width: 300px">
-						<p>
+						<p class="product-name">
 							<a href="http://www.amazon.com/b?node=10667898011" target="blank">Amazon Dash Button</a>
 						</p>
 						<p class="example-description">
@@ -100,72 +99,72 @@
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="https://recodetech.files.wordpress.com/2014/08/smartthings-image_8-14.jpg?quality=80&strip=info" style="width: 500px">
-						<p><a href="http://www.smartthings.com/">SmartThings</a></p>
+						<p class="product-name"><a href="http://www.smartthings.com/">SmartThings</a></p>
 
 						<p class="example-description">
 							<em>Home appliances such as motion detector that can send you notifications if someone enters your house or turn on the lights when you’re home.</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="http://www.ecouterre.com/wp-content/uploads/2014/08/ralph-lauren-polo-tech-shirt-1.jpg" style="width: 500px">
-						<p><a href="http://www.ralphlauren.com/product/index.jsp?productId=69917696&ab=rd_men_features_thepolotechshirt&cp=64796626.65333296">Ralph Lauren Polo Tech Shirt</a></p>
+						<p class="product-name"><a href="http://www.ralphlauren.com/product/index.jsp?productId=69917696&ab=rd_men_features_thepolotechshirt&cp=64796626.65333296">Ralph Lauren Polo Tech Shirt</a></p>
 
 						<p class="example-description">
 							<em>T-Shirt tracking biometrics like heart rate, movement intensity, etc... and outputs data to the cloud.</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="http://cdn.shopify.com/s/files/1/0280/4495/files/Device-On-GreenCorrected2.jpg?712" style="width: 500px">
-						<p><a href="http://hammerhead.io/#">Hammerhead</a></p>
+						<p class="product-name"><a href="http://hammerhead.io/#">Hammerhead</a></p>
 
 						<p class="example-description">
 							<em>Smart tool that guides cyclists</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="https://3.bp.blogspot.com/-6EmxKCiYJuc/VvKRU7-IS4I/AAAAAAAAORw/Rfjkqkt2JCQ8FVbweAs3Mta78FLgClykg/s1600/vodafone-smart-jacket-ciclistas.jpg" style="width: 500px">
-						<p><a href="http://hammerhead.io/#">Vodafone's smart jacket</a></p>
+						<p class="product-name"><a href="http://hammerhead.io/#">Vodafone's smart jacket</a></p>
 
 						<p class="example-description">
 							<em>Smart jacket for cyclists indicating direction to drivers behind.</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="https://ksr-ugc.imgix.net/projects/2087756/photo-original.png?v=1443711791&w=1536&h=1152&fit=crop&auto=format&q=92&s=119225b57a5c184fd901f502ea1a2b19" style="width: 500px">
-						<p><a href="https://www.kickstarter.com/projects/700989404/looncup-the-worlds-first-smart-menstrual-cup">Loon Cup</a></p>
+						<p class="product-name"><a href="https://www.kickstarter.com/projects/700989404/looncup-the-worlds-first-smart-menstrual-cup">Loon Cup</a></p>
 
 						<p class="example-description">
 							<em>Smart menstrual cup</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="https://teslamodels.files.wordpress.com/2014/08/tesla-model-s-profile.jpg" style="width: 500px">
-						<p><a href="https://www.teslamotors.com/en_AU/">Tesla</a></p>
+						<p class="product-name"><a href="https://www.teslamotors.com/en_AU/">Tesla</a></p>
 
 						<p class="example-description">
 							<em>Smart car with auto pilot, voice control phone system, real time energy consumption, 17'' touch screen, etc...</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<img src="http://c.fastcompany.net/multisite_files/fastcompany/imagecache/slideshow_large/slideshow/2015/11/3054038-slide-s-0-shiftwear-sneakers-feature-an-integrated-display-screen-for-infinite-customization-copy.gif" style="width: 500px">
-						<p><a href="http://www.shiftwear.com/">ShiftWear</a></p>
+						<p class="product-name"><a href="http://www.shiftwear.com/">ShiftWear</a></p>
 
 						<p class="example-description">
 							<em>Smart customizable shoes</em>
 						</p>
 					</section>
 
-					<section>
+					<section class="product-examples">
 						<iframe src="https://player.vimeo.com/video/144913588" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-						<p><a href="https://vimeo.com/144913588">Tech Tats</a></p>
+						<p class="product-name"><a href="https://vimeo.com/144913588">Tech Tats</a></p>
 
 						<p class="example-description">
 							<em>Wearable temporary tattoos tracking body temperature, etc..</em>
@@ -174,36 +173,27 @@
 
 				</section>
 
-				<section>
+				<section class="topic">
 					<section>
-						<h2>It's cool but why should I care?</h2>
+						<h3>It's cool but why should I care?</h3>
 						<img src="http://i.imgur.com/lVRcxsg.gif" width="480" height="258" frameBorder="0" class="giphy-embed"></img>
 					</section>
 
 					<section>
 						<img src="img/iot-graph.png">
 					</section>
-
 				</section>
 
-
-				<section>
+				<section class="tools">
 					<section>
-						<h2>Ok but... how do i even do stuff like that?</h2>
+						<h3>Ok but... how do i even do stuff like that?</h3>
 					</section>
 					<section>
 						<img src="http://www.clipartbest.com/cliparts/aTq/oq9/aTqoq9gXc.png" style="width: 200px">
 						<p></p>
 						<h2 class="special-h2">Hardware</h2>
 					</section>
-					<!-- <section id="fragments2">
-						<img src="https://dragon-innovation-production.s3.amazonaws.com/2014/01/16/18/00/07/404/85cc293b2694f2aeb47dd94d859798a3bead484e_1386941115.jpeg">
-						<p><a href="https://relayr.io/wunderbar" target="blank">WunderBar</a></p>
-						<p class="example-description">
-							<em>
-								Starter kit with wireless sensors such as light, color, proximity, accelerometer, humidity, etc...</em>
-						</p>
-					</section> -->
+
 					<section id="fragments2">
 						<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/11/1117_littlebits-798x310.jpg">
 						<p><a href="http://littlebits.cc/cloud" target="blank">LittleBits</a></p>
@@ -330,10 +320,9 @@
 					</section>
 				</section>
 
-
-				<section>
+				<section class="project-ideas">
 					<section>
-						<h1>What can I make?</h1>
+						<h2>What can I make?</h2>
 					</section>
 
 					<section>
@@ -365,12 +354,7 @@
 						<img src="https://www.pubnub.com/wp-content/uploads/2015/08/Raspberry-Pi-Leap-Motion-Servos-Gif.gif">
 						<p>Motion control + Robot</p>
 					</section>
-
-					<!-- <section>
-						<iframe width="420" height="315" src="https://www.youtube.com/embed/gseRG3MDlIA" frameborder="0" allowfullscreen></iframe>
-						<p>Marble Maze</p>
-					</section>
-
+					<!--
 					<section>
 						<img src="http://hacknmod.com/wp-content/uploads/2009/07/lasahhart1.jpg">
 						<p>Laser Harp</p>
@@ -388,13 +372,13 @@
 
 				</section>
 
-				<section>
-					<h1>YES YOU CAN!</h1>
+				<section class="project-ideas">
+					<h2>YES YOU CAN!</h2>
 				</section>
 
-				<section>
+				<section class="project-ideas">
 					<section id="fragments9">
-						<h1>Live demo!</h1>
+						<h2>Live demo!</h2>
 						<h3 class="fragment">But first...</h3>
 						<img class="fragment" src="img/robotgif.gif" style="width: 600px">
 					</section>
@@ -732,13 +716,13 @@
 					</script>
 				</section>
 
-				<section>
+				<section class="limits">
 					<section>
-						<h1>Limits</h1>
+						<h2>Limits</h2>
 					</section>
 
 					<section>
-						<h2>Yeah, all of this is cool but there's also mega fails... </h2>
+						<h3>Yeah, all of this is cool but there's also mega fails... </h3>
 						<img src="http://i.giphy.com/lZqrnTEu9DAdO.gif" alt="" />
 					</section>
 
@@ -756,12 +740,11 @@
 						</video>
 					</section>
 
-
 					<section>
 						<h3>Lightsaber goal</h3>
 						<!-- <iframe width="560" height="315" src="images/Arduino_Lightsaber.mp4" frameborder="0" allowfullscreen></iframe> -->
 						<video width="560" height="315" controls>
-							<source src="img/Arduino_Lightsaber.mp4" type="video/mp4">
+							<!-- <source src="img/Arduino_Lightsaber.mp4" type="video/mp4"> -->
 						</video>
 					</section>
 
@@ -777,11 +760,11 @@
 					</section>
 
 					<section>
-						<h2>Hardware</h2>
-						<p>Still expensive</p>
-						<p>Battery life</p>
-						<p>Hard to debug</p>
-						<li class="fragment">Not as performant as you'd like it to be</li>
+						<h3>Hardware</h3>
+						<li>Can be expensive</li>
+						<li>Battery life</li>
+						<li>Hard to debug</li>
+						<li>Not as performant as you'd like it to be</li>
 					</section>
 				</section>
 
