@@ -1251,7 +1251,7 @@ body {
  font-weight: bold;
 }
 
-.reveal section.project-ideas h2, .reveal section.project-ideas h3{
+.reveal section.project-ideas h2, .reveal section.project-ideas h3, .reveal section.thanks h2{
   color: rgb(26, 25, 169);
   border-bottom: none;
 }
@@ -1267,4 +1267,18 @@ body {
 
 .reveal section.limits h3 span{
   font-size: 15px;
+}
+
+.reveal section.resources h3{
+    color: rgb(26, 25, 169);
+}
+
+.reveal section.resources h2{
+  color: rgb(26, 25, 169);
+  padding-bottom: 0.5em;
+  border-bottom: 5px solid rgb(26, 25, 169);
+}
+
+.reveal section.resources li a,  .reveal section.resources a, .reveal section.thanks a{
+  color: rgba(26, 25, 169, 0.7);
 }
