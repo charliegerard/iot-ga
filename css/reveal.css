@@ -1269,6 +1269,10 @@ body {
   font-size: 15px;
 }
 
+.reveal section.limits .limits-hardware li{
+  text-align: left;
+}
+
 .reveal section.resources h3{
     color: rgb(26, 25, 169);
 }
