@@ -1286,3 +1286,7 @@ body {
 .reveal section.resources li a,  .reveal section.resources a, .reveal section.thanks a{
   color: rgba(26, 25, 169, 0.7);
 }
+
+#twitter-widget-0{
+  margin: 0 auto !important;
+}
