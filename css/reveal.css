@@ -1260,6 +1260,11 @@ body {
     color: rgb(26, 25, 169);
 }
 
+
+.reveal section.project-ideas img{
+    width: 300px;
+}
+
 .reveal section.limits h2, .reveal section.limits h3{
   color: rgb(26, 25, 169);
   border-bottom: none;
