@@ -1295,3 +1295,11 @@ body {
 #twitter-widget-0{
   margin: 0 auto !important;
 }
+
+.reveal .twitter-handle a{
+  color: rgb(26, 25, 169) !important;
+  position: absolute;
+  left: -10em;
+  bottom: 0;
+  font-size: 20px;
+}
