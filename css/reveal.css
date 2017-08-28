@@ -1299,7 +1299,7 @@ body {
 .reveal .twitter-handle a{
   color: rgb(26, 25, 169) !important;
   position: absolute;
-  left: -10em;
+  left: 0;
   bottom: 0;
   font-size: 20px;
 }
