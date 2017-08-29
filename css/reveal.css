@@ -1219,18 +1219,44 @@ body {
   border: 5px solid rgb(255, 28, 0);
 }
 
+.reveal section.about-me img.parrot{
+  width: 50px;
+  border: none;
+  margin-left: 1em;
+  vertical-align: middle;
+}
+
 .reveal section.about-me .content p{
+  font-size: 25px;
+}
+
+.reveal section.about-me .content ul li{
   font-size: 25px;
 }
 
 .reveal section.topic h3, .reveal section.product-examples h3, .reveal section.tools h3{
   color: rgb(26, 25, 169);
-  padding-bottom: 0.5em;
-  border-bottom: 5px solid rgb(26, 25, 169);
+  margin-bottom: 1em;
+  /*padding-bottom: 0.5em;*/
+  /*border-bottom: 5px solid rgb(26, 25, 169);*/
+}
+
+.reveal section.topic h3 span{
+    border-bottom: 5px solid rgb(26, 25, 169);
+    border-style: double;
+}
+
+.reveal section ul li{
+  font-size: 2rem;
 }
 
 .reveal section.topic p{
   color: rgb(255, 28, 0);
+}
+
+.reveal section.difference h3{
+  line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 .reveal section.product-examples p.example-description{
