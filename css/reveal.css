@@ -1259,10 +1259,6 @@ body {
   margin-bottom: 0;
 }
 
-.reveal section.product-examples p.example-description{
-  /*color: rgba(26, 25, 169, 0.7);*/
-}
-
 .reveal section.product-examples p.product-name a{
   color: rgb(26, 25, 169) !important;
   font-weight: bold;
@@ -1328,4 +1324,8 @@ body {
   left: 0;
   bottom: 0;
   font-size: 20px;
+}
+
+.reveal section.thanks p{
+  font-size: 2rem;
 }
